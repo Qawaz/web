@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var gatsby_plugin_image_1 = require("gatsby-plugin-image");
-require("../styles/style.module.scss");
+require("../styles/style.scss");
 var react_1 = require("react");
 var main_1 = require("../scripts/main");
 var react_helmet_1 = require("react-helmet");

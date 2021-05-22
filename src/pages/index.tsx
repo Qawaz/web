@@ -1,6 +1,6 @@
 import * as React from "react"
 import {StaticImage} from "gatsby-plugin-image";
-import "../styles/style.module.scss"
+import "../styles/style.scss"
 import {useEffect} from "react";
 import {setupMain} from "../scripts/main"
 import {Helmet} from "react-helmet"
