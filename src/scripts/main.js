@@ -1,3 +1,5 @@
+import ScrollReveal from 'scrollreveal'
+
 export function setupMain() {
     const doc = document
     const rootEl = doc.documentElement

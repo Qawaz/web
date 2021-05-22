@@ -13,7 +13,6 @@ function Home() {
     return (<div className="body-wrap boxed-container">
             <react_helmet_1.Helmet>
                 <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet"/>
-                <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"/>
             </react_helmet_1.Helmet>
             <header className="site-header text-light">
                 <div className="container">
