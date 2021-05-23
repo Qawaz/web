@@ -67,7 +67,12 @@ export default function Home() {
                             </div>
                             <div className="mockup-container">
                                 <div className="mockup-bg">
-                                    <StaticImage src={"../images/iphone-hero-bg.svg"} alt={"iPhone illustration"}/>
+                                    <StaticImage
+                                        src={"../images/iphone-hero-bg.svg"}
+                                        alt={"iPhone illustration"}
+                                        transformOptions={{fit:"fill"}}
+                                        layout={"fixed"}
+                                    />
                                 </div>
                                 <div className={"device-mockup"}>
                                     <StaticImage
@@ -87,8 +92,12 @@ export default function Home() {
                                 <div className="feature-extended">
                                     <div className="feature-extended-image">
                                         <div className="mockup-bg">
-                                            <StaticImage src={"../images/iphone-feature-bg-01.svg"}
-                                                         alt={"iPhone Feature 01 illustration"}/>
+                                            <StaticImage
+                                                src={"../images/iphone-feature-bg-01.svg"}
+                                                alt={"iPhone Feature 01 illustration"}
+                                                transformOptions={{fit:"fill"}}
+                                                layout={"fixed"}
+                                            />
                                         </div>
                                         <Fade left>
                                             <div className="device-mockup">
@@ -117,6 +126,8 @@ export default function Home() {
                                             <StaticImage
                                                 src="../images/iphone-feature-bg-02.svg"
                                                 alt="iPhone Feature 02 illustration"
+                                                transformOptions={{fit:"fill"}}
+                                                layout={"fixed"}
                                             />
                                         </div>
                                         <Fade right>
@@ -148,6 +159,8 @@ export default function Home() {
                                             <StaticImage
                                                 src="../images/iphone-feature-bg-03.svg"
                                                 alt="iPhone Feature 03 illustration"
+                                                transformOptions={{fit:"fill"}}
+                                                layout={"fixed"}
                                             />
                                         </div>
                                         <Fade left>
@@ -178,6 +191,8 @@ export default function Home() {
                                             <StaticImage
                                                 src="../images/iphone-feature-bg-04.svg"
                                                 alt="iPhone Feature 04 illustration"
+                                                transformOptions={{fit:"fill"}}
+                                                layout={"fixed"}
                                             />
                                         </div>
                                         <Fade right>
