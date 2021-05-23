@@ -2,7 +2,7 @@ import * as React from "react"
 
 export default function Policy() {
     return (
-        <React.Fragment>
+        <div className={"body-wrap container"}>
             <h1>Privacy Policy for Timeline</h1>
 
             <p>
@@ -215,6 +215,6 @@ export default function Policy() {
                 strongly encourage you to contact us immediately and we will do our
                 best efforts to promptly remove such information from our records.
             </p>
-        </React.Fragment>
+        </div>
     )
 }

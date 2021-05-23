@@ -2,7 +2,7 @@ import * as React from "react"
 
 export default function Terms() {
     return (
-        <React.Fragment>
+        <div className={"body-wrap container"}>
             <h1>Website Terms and Conditions of Use</h1>
 
             <h2>1. Terms</h2>
@@ -113,6 +113,6 @@ export default function Terms() {
                 Any claim related to Timeline's Website shall be governed by the
                 laws of pk without regards to its conflict of law provisions.
             </p>
-        </React.Fragment>
+        </div>
     )
 }

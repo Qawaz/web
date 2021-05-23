@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 function Terms() {
-    return (<React.Fragment>
+    return (<div className={"body-wrap container"}>
             <h1>Website Terms and Conditions of Use</h1>
 
             <h2>1. Terms</h2>
@@ -113,6 +113,6 @@ function Terms() {
                 Any claim related to Timeline's Website shall be governed by the
                 laws of pk without regards to its conflict of law provisions.
             </p>
-        </React.Fragment>);
+        </div>);
 }
 exports.default = Terms;

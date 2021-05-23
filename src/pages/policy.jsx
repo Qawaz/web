@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 function Policy() {
-    return (<React.Fragment>
+    return (<div className={"body-wrap container"}>
             <h1>Privacy Policy for Timeline</h1>
 
             <p>
@@ -215,6 +215,6 @@ function Policy() {
                 strongly encourage you to contact us immediately and we will do our
                 best efforts to promptly remove such information from our records.
             </p>
-        </React.Fragment>);
+        </div>);
 }
 exports.default = Policy;
