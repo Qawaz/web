@@ -1,8 +1,6 @@
 import * as React from "react"
 import {StaticImage} from "gatsby-plugin-image";
 import "../styles/style.scss"
-import {useEffect} from "react";
-import {setupMain} from "../scripts/main"
 import {Helmet} from "react-helmet"
 import {Android, Facebook, GitHub, Language, Twitter} from "@material-ui/icons";
 import {Button, IconButton} from "@material-ui/core";
@@ -36,7 +34,6 @@ export default function Home() {
                         </div>
                     </div>
                 </header>
-
                 <main>
                     <section className="hero text-center text-light">
                         <div className="hero-bg"/>

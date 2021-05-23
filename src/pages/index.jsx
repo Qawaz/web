@@ -27,7 +27,6 @@ function Home() {
                         </div>
                     </div>
                 </header>
-
                 <main>
                     <section className="hero text-center text-light">
                         <div className="hero-bg"/>
